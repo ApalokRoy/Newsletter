@@ -1,0 +1,39 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+label.required::after {
+  padding-left: 5px;
+  font-size: 15px;
+  content: "*";
+  color: #FF0000;
+}
+
+.post-description {
+  white-space: pre-wrap; 
+}
+
+.user-post-description {
+	line-height: 20px;
+  max-height: 100px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+.post-image {
+  height: 500px;
+}
+
+.edit-image {
+  height: 100px;
+  padding-bottom: 4px;
+}
